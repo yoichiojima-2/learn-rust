@@ -1,0 +1,1 @@
+/Users/ojimayoichi/Developer/repo/learn-rust/projects/package_and_crate/restaurant/target/debug/librestaurant.rlib: /Users/ojimayoichi/Developer/repo/learn-rust/projects/package_and_crate/restaurant/src/lib.rs
