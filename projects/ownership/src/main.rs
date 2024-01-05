@@ -1,6 +1,6 @@
 fn main() {
-    // use_string();
-    // stack_version();
+    use_string();
+    stack_version();
     using_clone();
     copy_stack();
     see_how_scope_works();
@@ -36,15 +36,14 @@ fn copy_stack() {
     println!("x = {x}, y = {y}", x = x, y = y);
 }
 
-// fn stack_version() {
-//     // use_string();
-//     let x = 5;
-//     let y = x;
-//     println!("x = {x}, y = {y}", x = x, y = y);
-// }
+fn stack_version() {
+    let x = 5;
+    let y = x;
+    println!("x = {x}, y = {y}", x = x, y = y);
+}
 
-// fn use_string() {
-//     let mut s: String = String::from("hello");
-//     s.push_str(", Yoichi!");
-//     println!("s = {s}");
-// }
+fn use_string() {
+    let mut s: String = String::from("hello");
+    s.push_str(", Yoichi!");
+    println!("s = {s}");
+}
